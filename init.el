@@ -16,7 +16,7 @@
 
 (blink-cursor-mode 1)
 
-(setq backup-directory-alist '(("." . "~/.emacs.d/backup"))
+(setq backup-directory-alist '(("." . "~/emacs_backup/"))
   backup-by-copying t    ; Don't delink hardlinks
   version-control t      ; Use version numbers on backups
   delete-old-versions t  ; Automatically delete excess backups
@@ -28,8 +28,6 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(custom-safe-themes
-   '("417b2e4625b6bccb49c6d0714c8d13af1a27f62102ec6d56b538d696fc5ebf19" default))
  '(package-selected-packages '(company)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
